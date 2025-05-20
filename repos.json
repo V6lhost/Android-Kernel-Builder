@@ -21,6 +21,7 @@
           "repo": "https://github.com/LineageOS/android_prebuilts_tools-lineage",
           "branch": "lineage-22.2",
           "name": "dtc"
+      }
     ],
     "params": {
       "ARCH": "arm64",

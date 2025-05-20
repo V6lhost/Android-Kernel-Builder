@@ -16,7 +16,11 @@
         "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
         "branch": "11",
         "name": "clang"
-      }
+      },
+      {
+          "repo": "https://github.com/LineageOS/android_prebuilts_tools-lineage",
+          "branch": "lineage-22.2",
+          "name": "dtc"
     ],
     "params": {
       "ARCH": "arm64",
@@ -25,7 +29,8 @@
       "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
       "CLANG_TRIPLE": "aarch64-linux-gnu-",
       "AR": "",
-      "CC": "clang"
+      "CC": "clang",
+      "DTC": "dtc"
     }
   }
 ]

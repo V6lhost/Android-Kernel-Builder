@@ -1,9 +1,9 @@
 [  {
     "kernelSource": {
-      "name": "miku-KernelSU",
-      "repo": "https://github.com/PhamtomK12/kernel_xiaomi_odin",
-      "branch": "TDA",
-      "device": "odin"
+      "name": "Lineage-KernelSU",
+      "repo": "https://github.com/LineageOS/android_kernel_samsung_sm6115",
+      "branch": "lineage-22.2",
+      "device": "gta4l"
     },
     "withKernelSU": true,
     "toolchains": [

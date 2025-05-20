@@ -1,9 +1,9 @@
 [  {
     "kernelSource": {
-      "name": "Lineage-KernelSU",
+      "name": "Lineage",
       "repo": "https://github.com/LineageOS/android_kernel_samsung_sm6115",
       "branch": "lineage-22.2",
-      "device": "gta4l"
+      "device": "gta4l_eur_open"
     },
     "withKernelSU": false,
     "toolchains": [

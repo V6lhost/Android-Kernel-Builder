@@ -92,7 +92,7 @@ jobs:
           CLANG_TRIPLE=$(echo $params | jq -r ".CLANG_TRIPLE")
           AR=$(echo $params | jq -r ".AR")
           CC=$(echo $params | jq -r ".CC")
-          DTC=$(echo $params | jq -r ".DTC")/linux-86/dtc/dtc
+          DTC=$(echo $params | jq -r ".DTC")
 
           echo "ARCH=$ARCH" >> $GITHUB_ENV
 

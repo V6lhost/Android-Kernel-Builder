@@ -58,6 +58,7 @@ jobs:
         working-directory: ./${{ env.kernelDir }}
         run: |
           git clone --recursive --branch $kernelBranch $kernelRepo $kernelName --depth=1
+          chmod +x scripts/dtc/dtc
 
       - name: "💫 Get toolchains"
         working-directory: ./${{ env.kernelDir }}
